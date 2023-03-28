@@ -1,0 +1,38 @@
+.header {
+  border: 0.5px solid grey;
+  background-color: darkslategray;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+.searchBar {
+  padding-top: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+.searchBar input[type="text"] {
+  flex: 1;
+}
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+label {
+  text-align: center;
+}
+.movieTitle {
+  font-weight: bold;
+}
+.errorCode {
+  padding: 30px;
+}
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
